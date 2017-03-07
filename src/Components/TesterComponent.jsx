@@ -20,21 +20,21 @@ class TesterComponent extends React.Component {
   render() {
     return (
       <div>
-        are we here?
         <ul>
+          <Button
+            bsStyle="success"
+            bsSize="small"
+            onClick={this.doTheThing}
+            >
+            Clicka here to add
+          </Button>
+          
           {this.props.todos.map((todo) => {
             return (
               <li key={todo.id}>{todo.text}</li>
             );
           })}
         </ul>
-              <Button
-                bsStyle="success"
-                bsSize="small"
-                onClick={this.doTheThing}
-                >
-                Clicka here to add
-              </Button>
       </div>
     );
   }
