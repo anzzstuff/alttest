@@ -1,7 +1,7 @@
 import connectToStores from 'alt-utils/lib/connectToStores';
 import React from 'react';
-import TesterStore from './TesterStore';
-import TesterActions from './TesterActions';
+import TesterStore from '../Stores/TesterStore';
+import TesterActions from '../Actions/TesterActions';
 import { Button } from 'react-bootstrap';
 
 class TesterComponent extends React.Component {

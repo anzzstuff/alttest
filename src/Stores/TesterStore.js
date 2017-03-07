@@ -1,7 +1,6 @@
-import alt from './alt';
-import TesterActions from './TesterActions'
+import alt from '../alt';
+import TesterActions from '../Actions/TesterActions'
 import chromeDebug from 'alt-utils/lib/chromeDebug';
-
 chromeDebug(alt);
 
 class TesterStore {
